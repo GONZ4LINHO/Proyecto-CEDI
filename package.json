@@ -1,0 +1,24 @@
+{
+  "name": "proyecto-cedi",
+  "version": "1.0.0",
+  "description": "Backend de pagos vinculado a Salesforce",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "pagos",
+    "salesforce",
+    "nodejs"
+  ],
+  "author": "Cabral Mato, Gonzalo Sebastian; Benitez, Eric Ezequiel; Gonzalez, Mariano; Garro, Fiorella",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
