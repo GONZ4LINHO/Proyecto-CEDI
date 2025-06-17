@@ -1,7 +1,7 @@
 require('dotenv').config();
 const express = require('express');
 const Usuario = require('./clases/Usuario');
-const SalesforceConnection = require('./conexion/SalesforceConnection');
+const SalesforceConnection = require('./clases/ConexionSalesforce');
 
 const app = express();
 const PORT = process.env.PORT || 3000;

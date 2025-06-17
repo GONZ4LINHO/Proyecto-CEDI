@@ -1,6 +1,6 @@
 const jsforce = require('jsforce'); //Definimos la librería jsforce para conectar con Salesforce
 
-class SalesforceConnection {
+class ConexionSalesforce {
   constructor(usuario) {
     this.usuario = usuario;
     this.conn = null;
@@ -27,4 +27,4 @@ class SalesforceConnection {
   }
 }
 
-module.exports = SalesforceConnection;
+module.exports = ConexionSalesforce;
